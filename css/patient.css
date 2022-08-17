@@ -1,0 +1,44 @@
+<html><head></head><body>.ux-btn-group {
+	 outline: none;
+	 display: flex;
+}
+ .ux-btn-group li {
+	 outline: none;
+	 display: flex;
+	 flex-shrink: 0;
+}
+ .ux-btn-group li input.ux-btn-group-item {
+	 opacity: 0;
+	 margin-left: -14px;
+}
+ .ux-btn-group li input.ux-btn-group-item:checked + label {
+	 background-image: linear-gradient(#e1e3e5, #f7f8f8) !important;
+	 box-shadow: inset 0px 5px 6px rgba(143, 151, 158, 0.3), inset 0 0 4px rgba(112, 128, 128, 0.9), 0 0 0 #606265;
+	 outline: none;
+}
+ .ux-btn-group li label {
+	 border-style: solid;
+	 border-width: 1px 1px 1px 1px;
+	 border-color: darkgray;
+	 margin: -1px;
+	 background-color: lightgray;
+	 padding: 5px;
+}
+ .ux-btn-group li label:active {
+	 outline: none;
+	 border: 1px solid darkgray;
+	 background-image: linear-gradient(#e1e3e5, #f7f8f8) !important;
+	 box-shadow: inset 2px 2px 16px rgba(143, 151, 158, 0.3), inset 2px 2px 14px rgba(112, 128, 128, 0.9), 0 0 0 #606265;
+	 transform: scale(1, 0.97);
+}
+ .ux-btn-group li label:focus {
+	 outline: none;
+}
+ input[type=&#34;
+checkbox&#34;
+]:focus + label, input[type=&#34;
+radio&#34;
+]:focus + label {
+	 border: 1px solid blue;
+}
+ </body></html>
